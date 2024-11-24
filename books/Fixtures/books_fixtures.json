@@ -1,0 +1,52 @@
+[
+    {
+      "model": "books.category",
+      "pk": 1,
+      "fields": {
+        "name": "Science Fiction"
+      }
+    },
+    {
+      "model": "books.category",
+      "pk": 2,
+      "fields": {
+        "name": "Fantasy"
+      }
+    },
+    {
+      "model": "books.author",
+      "pk": 1,
+      "fields": {
+        "name": "Isaac Asimov"
+      }
+    },
+    {
+      "model": "books.author",
+      "pk": 2,
+      "fields": {
+        "name": "J.R.R. Tolkien"
+      }
+    },
+    {
+      "model": "books.book",
+      "pk": 1,
+      "fields": {
+        "title": "Foundation",
+        "description": "A science fiction novel by Isaac Asimov.",
+        "author": 1,
+        "rating": 9,
+        "category": [1]
+      }
+    },
+    {
+      "model": "books.book",
+      "pk": 2,
+      "fields": {
+        "title": "The Hobbit",
+        "description": "A fantasy novel by J.R.R. Tolkien.",
+        "author": 2,
+        "rating": 8,
+        "category": [2]
+      }
+    }
+  ]
